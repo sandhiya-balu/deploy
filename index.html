@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&family=Stoke:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+         
+        .img1{
+            object-fit: cover;
+            margin: 0%;
+            padding: 0%;
+            
+        }
+        body{
+            font-size: 16px;
+        }
+        
+        h1{
+            text-align: center;
+            color: aquamarine;
+            font-family: sans-serif;
+            margin: 25px 0px 15px 0px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: blueviolet;
+        }
+        @media screen and (max-width:576px){
+
+            .content{
+                display: block;
+                flex-direction: column;
+            }
+            .h1{
+            text-align: center;
+            color: aquamarine;
+            font-family: sans-serif;
+            }
+            body{
+                margin: 0%;
+                max-width: 600px;
+            }
+            .description{
+           font-size: 18px;
+            margin-top: 0;
+           
+            
+            
+        }
+        .t-image{
+            width: 100px;
+            border-radius: 5px;
+            height: 100px;
+            
+    
+
+        }
+
+           
+            
+        }
+        .description{
+            width: 50%;
+            margin-top: 0;
+            padding-left: 60px;
+            padding-right: 60px;
+            margin-left: 20px;
+            
+        }
+        .t-image{
+            width: 50%;
+            border-radius: 5px;
+            padding-left: 60px;
+            padding-right: 60px;
+    
+
+        }
+        .content{
+            display: flex;
+            margin: 30px auto;
+           
+        }
+        h2{
+            text-align: center;
+
+        }
+       
+        h3,h6{
+            margin: 4px;
+        }
+        .role{
+            margin: 20px;
+        }
+        .bottom{
+            background-color: ghostwhite;
+            padding-top: 10px;
+           
+           
+        }
+        .list{
+            list-style: none;
+            display: flex;
+            padding-left:43% ;
+            
+        }
+        .footer{
+            color: black;
+            text-align: center;
+            padding-bottom: 3px;
+
+        }
+        .ele{
+            margin: 10px
+        }
+        .bot{
+            margin: 0% 25% 0% 25%;
+        }
+        table{
+            border-collapse: collapse;
+            width: 75%;
+            border: 1px solid black;
+            margin-top: 5px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .tab-head th{
+            border: 1px solid grey;
+            padding: 8px;
+            background-color: aliceblue;
+            
+        }
+        td{
+            border: 1px solid grey;
+            padding: 8px;
+        }
+        body{
+            font-family: 'Roboto',sans-serif;
+            
+            font-weight: 500;
+           
+        }
+        .appform{
+            max-width: 800px;
+            margin: 15px auto;
+            
+        }
+        .fn{
+            padding: 8px 0px;
+            font-size: 17px;
+        }
+        .bot{
+            
+            background-color: rgb(114, 211, 211);
+            border-radius: 6px;
+        }
+        .fn input,select{
+            font-size: 17px;
+            padding: 6px;
+        }
+        .fn textarea{
+            width: 80%;
+        }
+        .fnr input{
+            font-size: 17px;
+            padding: 6px;
+            border: 1px solid black;
+            width: 300px;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="img2.jpeg" alt="img" height="35px">
+    </div>
+   
+    <h1>About mavian</h1>
+    <div class="content">
+        <div class="description">
+            <p>Lorem ipsum dolor sit amet 
+                consectetur, adipisicing elit.
+                Deleniti incidunt delectus
+                cupiditate libero numquam, labore iste molestias neque repudiandae
+                 ab fugiat error explicabo odit dicta ullam facere qui. Saepe, quo!</p>
+                 <p>we also offer other courses</p>
+            <ul style="list-style-type: disc;">
+                <li>
+                    <a href="https://www.google.com/">Courses</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/">programms</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/">Youtube</a>
+                </li>
+            </ul>
+        </div>
+        <div class="t-image">
+            <img src="img.jpg" alt="img" >
+        </div>
+    </div class="bot">
+        <h2>Job Oppurtunities</h2>
+        <div class="data">
+            <table class="table">
+                <tr class="tab-head">
+                    <th rowspan="2">Job title</th>
+                    <th colspan="2">Location</th>
+                    <th rowspan="2">Salary</th>
+                    <th rowspan="2">Posted on</th>
+                </tr>
+                <tr class="tab-head">
+                        <th>City</th>
+                        <th>Country</th>
+                </tr>
+                <tr class="tab-data">
+                    <td>Frontend developer</td>
+                    <td>Banglore</td>
+                    <td>India</td>
+                    <td>$2,200</td>
+                    <td>Mar 3,2023</td>
+                </tr>
+                <tr class="tab-data">
+                    <td>Full Stack developer</td>
+                    <td>New Delhi</td>
+                    <td>India</td>
+                    <td>$2,500</td>
+                    <td>Feb 1,2023</td>
+                </tr>
+                <tr class="tab-data">
+                    <td>Data Scientist</td>
+                    <td>San Francisco</td>
+                    <td>USA</td>
+                    <td>$2,700</td>
+                    <td>Dec 22,2023</td>
+                </tr>               
+                <tr class="tab-data">
+                    <td>Machine Learning Engineer</td>
+                    <td colspan="2">Remote</td>
+                    <td>$3,000</td>
+                    <td>sep 19,2023</td>
+                </tr>
+        </div>
+        <div class="appform">
+            <h2> submit your application</h2>
+            <form class="app" method="post">
+                <div class="fn">
+                    <label for="name">Full name</label><br>
+                    <input type="text" id="name" name="Full name" required placeholder="sandhiya balasubramanian">
+                </div>
+                <div class="fn">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required placeholder="sandy@gmail.com">
+                </div>
+                <div class="fn">
+                    <label for="phone">Phone</label><br>
+                    <input type="number" id="phone" name="Phone" required placeholder="9876543210">
+                </div>
+                <div class="fn">
+                    <label for="DOB">Date of birth</label><br>
+                    <input type="date" id="DOB" name="DOB" required>
+                </div>
+                <div class="fn">
+                    <label for="Position">Position Applied for</label><br>
+                    <select id="Position" name="position">
+                        <option value="a">Select Any Position</option>
+                        <option value="f">Frontend developer</option>
+                        <option value="b">Backend developer</option>
+                        <option value="m">Machine Learning Engineer</option>
+                        <option value="d">Data Scientist</option>
+                    </select>
+                </div>
+                
+                <div class="fnr">
+                    <label for="Resume">Resume</label><br>
+                    <input type="file" id="Resume" name="Full name" required>
+                </div>
+                <div class="fn">
+                    <label for="cover">cover letter</label><br>
+                    <textarea  id="cover" name="cover" rows="4" placeholder="I am sandhiya balasubramanian and I am a software developer"></textarea>
+                </div>
+                <div class="fn">
+                    <label for="terms">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        I agree to the terms and conditions
+                    </label>
+                </div>
+                <div class="fn">
+                    <button class="bot"> submit</button>
+                </div>
+            </form>
+
+        </div>
+       
+        </table>
+        <div class="bottom">
+            <ul  class="list">
+                <li class="ele">Courses</li>
+                <li class="ele">You tube</li>
+                <li class="ele">programms</li>
+            </ul>
+            <footer class="footer">
+                <p>© 2023,Jovian</p>
+            </footer>
+
+        </div>
+        
+        
+</body>
+
+</html>
